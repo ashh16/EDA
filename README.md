@@ -1,5 +1,7 @@
-Netflix Movies and TV-Shows EDA
+Netflix Movies and TV-Shows EDA.
+
 The dataset used for this EDA is the Netflix Movies and TV Shows dataset available on Kaggle. It contains information about movies and TV shows available on Netflix as of 2021. The dataset includes features such as:
+
 •	Title: The title of the movie or TV show.
 •	Type: Whether it's a movie or TV show.
 •	Director: The director(s) of the movie or TV show.
@@ -10,14 +12,18 @@ The dataset used for this EDA is the Netflix Movies and TV Shows dataset availab
 •	Duration: The duration in minutes for movies or the number of seasons for TV shows.
 •	Listed In: Genre(s) the content belongs to.
 •	Description: A brief description of the content
-Starting with EDA 
+
+Starting with EDA.
+
 1)	Dataset Overview:
 	Import Required Libraries
 	Import Dataset
 	Basic functions like head, info, shape, describe, rename etc
-2)	Data Cleaning: 
+
+3)	Data Cleaning: 
 In data cleaning phase we will firstly check if there are any null values. To deal with null values we can either remove null values or replace them with suitable variable. We can also convert the data into excel to check the updated processes.
-3)	Analysis and visualization:
+
+5)	Analysis and visualization:
 	Countplot of types of shows
 	Piechart overall ratings given by rating systems
 	Countplot of ratings given by rating systems
@@ -26,6 +32,7 @@ In data cleaning phase we will firstly check if there are any null values. To de
 	Pie chart of country-wise shows production(in percent)
 	Barplot of types and releaseyear
 	Lineplot to compare types of shows year-wise
+
 Summary 
 •	Count of titles has increased significantly over the years.
 •	Specifically, two type of titles are available on Netflix:'Movies' & 'Tv-shows'
